@@ -19,7 +19,7 @@
   "author": "qiansc",
   "amdDependencies": {
     "etpl": "^3.2.0",
-    "ralltiir-skeleton": "^0.0.5",
+    "ralltiir-skeleton": "^0.0.6",
     "ralltiir-skeleton-loading": "^0.0.7",
     "ralltiir-skeleton-tombstone": "^0.0.1"
   }
