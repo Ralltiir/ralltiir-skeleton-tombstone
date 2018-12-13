@@ -40,3 +40,30 @@ a {
   text-decoration: none;
   color: rgb(61, 136, 221);
 }
+.gh-ribbon {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #686868;
+  box-shadow: 0 0 2px rgba(102, 102, 102, 0.4);
+  display: block;
+  padding: 1px 0;
+  position: fixed;
+  right: -55px;
+  top: 10;
+  width: 150px;
+  z-index: 10000;
+}
+.gh-ribbon a {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  border: 1px solid #AAAAAA;
+  color: #FFFFFF;
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  outline: medium none;
+  padding: 4px 50px 2px;
+  text-align: center;
+  text-decoration: none;
+}
