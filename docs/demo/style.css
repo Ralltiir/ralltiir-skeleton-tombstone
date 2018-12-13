@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: #FFF;
+}
+.rt-app {
+  position: fixed;
+  width: 100%;
+  font-size: 0.18rem;
+}
+.rt-head {
+  border-bottom: 1px solid #EEE;
+  color: #999;
+  line-height: 40px;
+  text-align: center;
+  background: #FFF;
+}
+.rt-body {
+  position: relative;
+}
+.rt-tools {
+  line-height: 25px;
+}
+.rt-tools span{
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  /* position: fixed;
+  right: 10px;
+  top: 40%;
+  z-index: 301; */
+}
+.rt-tools span{
+  display: inline-block;
+  width: 18%;
+}
+.rt-tools span:hover, .rt-tools .active{
+  background: #D9D9D9;
+}
+a {
+  text-decoration: none;
+  color: rgb(61, 136, 221);
+}
