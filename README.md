@@ -6,7 +6,7 @@
 [![npm downloads](http://img.shields.io/npm/dm/ralltiir-skeleton-tombstone.svg)](https://www.npmjs.org/package/ralltiir-skeleton-tombstone)
 
 ## What's ralltiir-skeleton-tombstone
-ralltiir-skeleton-tombstone是提供了ralltiir-skeleton所需的骨架屏类外观库，实现上有基于SearchUI及原生（非SearchUI）两种方式。
+ralltiir-skeleton-tombstone提供了ralltiir-skeleton所需的骨架屏类外观库，基于SearchUI及原生（非SearchUI）两种方式提供了不同的骨架屏外观。
 
 ## Demo
 [ralltiir-skeleton-tombstone](https://ralltiir.github.io/ralltiir-skeleton-tombstone/demo/)
