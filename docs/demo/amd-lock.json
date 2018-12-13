@@ -11,6 +11,9 @@
     },
     "ralltiir-skeleton-loading": {
       "version": "0.0.7"
+    },
+    "ralltiir-skeleton-tombstone": {
+      "version": "0.0.1"
     }
   }
 }
