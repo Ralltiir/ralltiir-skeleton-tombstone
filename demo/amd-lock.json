@@ -1,0 +1,19 @@
+{
+  "name": "@ralltiir-skeleton/loading-demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "etpl": {
+      "version": "3.2.0",
+      "integrity": "sha512-eroSJeGmyFz/pKnx21DTlR8xcDdYDgd8nv+zV/rG7DKqa0BwPR5306SRAnC4ehEP59IFoLM0Foo9HGyhB+yI7g=="
+    },
+    "ralltiir-skeleton": {
+      "version": "0.0.5"
+    },
+    "ralltiir-skeleton-loading": {
+      "version": "0.0.7"
+    },
+    "ralltiir-skeleton-tombstone": {
+      "version": "0.0.1"
+    }
+  }
+}
