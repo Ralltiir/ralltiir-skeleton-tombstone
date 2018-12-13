@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/Ralltiir/ralltiir-skeleton-tombstone",
   "devDependencies": {
-    "@baidu/atom-web-runtime": "^2.1.8",
     "@types/chai": "^4.1.4",
     "@types/ftp": "^0.3.29",
     "@types/mocha": "^5.2.5",
