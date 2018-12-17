@@ -2,7 +2,7 @@
  * @Author: qiansc
  * @Date: 2018-12-12 11:28:18
  * @Last Modified by: qiansc
- * @Last Modified time: 2018-12-13 13:40:28
+ * @Last Modified time: 2018-12-17 12:31:54
  */
 
 declare type Atom = any;
@@ -56,7 +56,9 @@ export class SearchTombstone implements SkeletonAppearance {
     return this.container;
   }
   public destroy() {
-    this.container.innerHTML = "";
+    if (this.container) {
+      this.container.innerHTML = "";
+    }
   }
 }
 
