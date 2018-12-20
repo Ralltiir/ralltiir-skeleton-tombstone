@@ -1,4 +1,4 @@
-# Ralltiir Skeleton
+# Ralltiir Skeleton Tombstone
 ![Language](https://img.shields.io/badge/-TypeScript-blue.svg)
 [![Build Status](https://travis-ci.org/Ralltiir/ralltiir-skeleton-tombstone.svg?branch=master)](https://travis-ci.org/Ralltiir/ralltiir-skeleton-tombstone)
 [![Coveralls](https://img.shields.io/coveralls/Ralltiir/ralltiir-skeleton-tombstone.svg)](https://coveralls.io/github/Ralltiir/ralltiir-skeleton-tombstone)
