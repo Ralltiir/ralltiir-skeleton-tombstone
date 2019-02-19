@@ -1,7 +1,6 @@
 # Ralltiir Skeleton Tombstone
 ![Language](https://img.shields.io/badge/-TypeScript-blue.svg)
 [![Build Status](https://travis-ci.org/Ralltiir/ralltiir-skeleton-tombstone.svg?branch=master)](https://travis-ci.org/Ralltiir/ralltiir-skeleton-tombstone)
-[![Coveralls](https://img.shields.io/coveralls/Ralltiir/ralltiir-skeleton-tombstone.svg)](https://coveralls.io/github/Ralltiir/ralltiir-skeleton-tombstone)
 [![npm package](https://img.shields.io/npm/v/ralltiir-skeleton-tombstone.svg)](https://www.npmjs.org/package/ralltiir-skeleton-tombstone)
 [![npm downloads](http://img.shields.io/npm/dm/ralltiir-skeleton-tombstone.svg)](https://www.npmjs.org/package/ralltiir-skeleton-tombstone)
 
