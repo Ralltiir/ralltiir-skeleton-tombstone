@@ -41,10 +41,10 @@ export class SearchTombstone implements SkeletonAppearance {
     this.container.appendChild(target);
     target.appendChild(atomWrapper);
     const tombstonePageProps = {
-      type: this.options.type || 2,
       imgNum: this.options.imgNum || 1,
-      imgType: this.options.imgType || 'waterfall',
-      num: this.options.num || 6
+      imgType: this.options.imgType || "waterfall",
+      num: this.options.num || 6,
+      type: this.options.type || 2,
     };
     const atom = new this.options.Atom({
         components: {

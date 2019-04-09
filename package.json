@@ -1,6 +1,6 @@
 {
   "name": "ralltiir-skeleton-tombstone",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "discription": "Ralltiir Tombstone Skeleton",
   "scripts": {
     "preversion": "gulp && npm run lint && npm run cover",
