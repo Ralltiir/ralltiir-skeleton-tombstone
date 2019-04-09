@@ -33,12 +33,13 @@ require(
     function(Skeleton, Tombstone, Atom, TombstoneUI) {
       var skeleton;
       var container =  document.querySelector('.rt-body');
-      function start(index) {
+      function start(index, imgtype) {
         var appearance = new Tombstone.SearchTombstone({
           Atom: Atom,
           TombstoneUI: TombstoneUI,
           margin: "15px",
-          type: index
+          type: index,
+          imgType: imgtype
         });
         skeleton = new Skeleton.Skeleton(container, appearance, {
             background: "#FFF"
@@ -52,10 +53,11 @@ require(
           document.querySelectorAll(".active").forEach((a) => a.className = "");
           this.className = "active";
           var index = this.getAttribute("index");
+          var imgtype = this.getAttribute("imgtype");
           if (!index) return;
           skeleton.destroy();
           setTimeout(function() {
-            start(index * 1);
+            start(index * 1, imgtype);
           }, 500);
         }
       });

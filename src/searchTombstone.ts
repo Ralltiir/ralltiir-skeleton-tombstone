@@ -40,7 +40,12 @@ export class SearchTombstone implements SkeletonAppearance {
     const atomWrapper = document.createElement("div");
     this.container.appendChild(target);
     target.appendChild(atomWrapper);
-    const tombstonePageProps = { type: this.options.type || 2};
+    const tombstonePageProps = {
+      type: this.options.type || 2,
+      imgNum: this.options.imgNum || 1,
+      imgType: this.options.imgType || 'waterfall',
+      num: this.options.num || 6
+    };
     const atom = new this.options.Atom({
         components: {
           Tombstone: this.options.TombstoneUI,
@@ -73,6 +78,8 @@ interface SearchTombstoneOptions {
   type?: number;
   /** 图片占位图占的屏幕数量；默认1屏；当且仅当为图片类型 type === 1 时生效 */
   imgNum?: number;
+  /** 图片占位类型；'waterfall' 瀑布流；'same' 相同；默认为 'waterfall'；当且仅当为图片类型 type === 1 时生效 */
+  imgType?: string;
   /** 其他类型占位加载的条数；默认6条；当且仅当不为图片类型 type !== 1 时生效 */
   num?: number;
 }
